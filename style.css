@@ -523,9 +523,13 @@ transition:  .6s ease;
     footer h1{
         font-size: 30px;
     }
+p{
+    color: black;
+}
     footer li,p{
         font-size: 20px;
         padding: 4px;
+        color: white;
         
     }
     footer ul li a{
