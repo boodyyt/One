@@ -220,7 +220,7 @@ font-size: 20px;
 }
 .box{
     display: flex;
-    width: 100%;
+    width: 30%;
     padding: 10px;
     transition: .5s ease;
 }
@@ -252,7 +252,7 @@ font-size: 20px;
         width: 100%;
     }
     .Gallary .box img {
-        max-width: 30%;
+       
 }
 
 .service{
