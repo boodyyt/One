@@ -5,10 +5,8 @@
 }
 body{
     transition: .6s ease;
-    margin: 0;
 }
 header{
-    width: 100%
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,14 +51,12 @@ ul li a:hover{
     cursor: pointer;
 }
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     .menu{
         display: block;
     }
     header{
-        width: 100%;
         flex-wrap: wrap;
-        
     }
     nav {
         width: 100%;
@@ -189,7 +185,7 @@ font-size: 20px;
     background: orangered;
     cursor: pointer;
 }
-@media(max-width: 768pxpx){
+@media(max-width: 992px){
     .about{
         flex-direction: column;
     }
@@ -251,7 +247,7 @@ font-size: 20px;
 .Gallary button:hover{
     background: orangered;
 }
-@media(max-width: 768px){
+@media(max-width: 992px){
     .Gallary .box {
         width: 100%;
     }
@@ -337,7 +333,7 @@ transition:  .6s ease;
     transition: .6s ease;
 }
 
-@media(max-width: 768px){
+@media(max-width: 992px){
     .service .con {
         flex-direction: column;
     }
@@ -488,7 +484,7 @@ transition:  .6s ease;
         color: black;
     }
 
-    @media(max-width:668px){
+    @media(max-width:992px){
         .contact .con{
             flex-direction: column;
         }
@@ -551,7 +547,7 @@ transition:  .6s ease;
         padding: 20px;
         font-weight: normal;
     }
-    @media(max-width: 768pxpx){
+    @media(max-width: 992px){
         .big{
             flex-direction: column;
         }
