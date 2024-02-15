@@ -251,6 +251,8 @@ font-size: 20px;
     .Gallary .box {
         width: 100%;
     }
+    .Gallary .box img {
+        max-width: 30%;
 }
 
 .service{
