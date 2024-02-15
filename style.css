@@ -249,7 +249,7 @@ font-size: 20px;
 }
 @media(max-width: 992px){
     .Gallary .box {
-        width: 100%;
+        max-width: 100%;
     }
     .Gallary .box img {
         max-width: 30%;
